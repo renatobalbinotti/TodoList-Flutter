@@ -7,10 +7,10 @@ class AppWidget extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.cyan),
+      theme: ThemeData(primarySwatch: Colors.red),
       title: 'Listita de ',
       home: HomeView()
-      );
+    );
   }
 
 }
