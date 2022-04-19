@@ -6,7 +6,7 @@ class AppWidget extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false
       theme: ThemeData(primarySwatch: Colors.red),
       title: 'Listita de ',
       home: HomeView()
